@@ -1,0 +1,78 @@
+.hero {
+  display: flex;
+  margin: 0 13rem;
+  justify-items: center;
+}
+.hero .col-1 #fancy-btn {
+  font-size: 12px;
+  color: #b479d9;
+  background: rgba(180, 121, 217, 0.15);
+  padding: 3px 10px;
+  max-width: fit-content;
+  border-radius: 15px;
+}
+.hero .col-1 h3 {
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.hero .col-1 p {
+  font-size: 10px;
+  line-height: 2em;
+  margin-top: 15px;
+}
+
+/* Hero btn */
+.hero .col-1 .hero-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 2em;
+  margin-top: 15px;
+}
+
+.hero .col-1 .hero-btn button {
+  background-color: #23bb77;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  padding: 13px 20px;
+}
+.hero .col-1 .hero-btn button:hover {
+  color: #23bb77;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #23bb77;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 13px 20px;
+}
+.hero .col-1 {
+  position: relative;
+}
+.stats {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5em;
+  margin-top: 15px;
+  position: relative; /* Required for the pseudo-element */
+}
+
+.stats1::before {
+  content: "";
+  position: absolute;
+  top: 50%; /* Center the line vertically */
+  transform: translateY(-50%); /* Offset for vertical centering */
+  width: 1px;
+  height: calc(100% - 40px); /* Adjust height based on content padding */
+  background-color: #000;
+  right: 0; /* Place the line at the center */
+}
+
+/* .hero .col-1 .stats .stats1 {
+  border-right: 1px solid #000;
+} */
+#fa-play {
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+}
