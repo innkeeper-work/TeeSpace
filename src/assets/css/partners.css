@@ -1,0 +1,10 @@
+.partners {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 50px;
+}
+.partners h4 {
+  width: 40%;
+  /* transform: translateX(70%); */
+  margin: 0 auto;
+}
