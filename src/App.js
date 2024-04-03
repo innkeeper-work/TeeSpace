@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import PropsC from "./components/PropsC";
+import Tutorials from "./components/Tutorial";
 import Partners from "./components/Partners";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Partners />
+      <Tutorials />
     </>
   );
 }

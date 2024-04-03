@@ -1,0 +1,25 @@
+.tutorials {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.tutorials p {
+  margin: 10px auto;
+  width: 50%;
+}
+
+/* For Tutorial Card Props */
+.tutorial-card {
+  display: flex;
+  margin: 5rem 10rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tutorial-card #page p {
+  background-color: #fff;
+  border-radius: 50%;
+  max-width: fit-content;
+  padding: 5px 12px;
+  box-shadow: 2px 2px 5px rgba(232, 8, 8, 0.2);
+}
